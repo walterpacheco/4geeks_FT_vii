@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: 'Helvetica';
+}
+.centerA {
+    width: 500px;
+    margin: auto;
+}
+.smallFont {
+    height: 35px;
+    margin-right: 10px;
+}
+.mainImg {
+    height: 400px;
+    width: 500px;
+}
+.post {
+    background-color: white;
+    margin-top: 100px;
+}
+.post > div {
+    padding: 15px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row > div {
+    display: flex;
+    align-items: center;
+}
+
+.paddingImg {
+    padding: 0 !important;
+}
+#size{
+    font-size: 15px;
+}
